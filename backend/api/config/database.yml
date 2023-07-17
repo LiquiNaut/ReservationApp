@@ -25,12 +25,12 @@ development:
   <<: *default
   adapter: postgresql
   encoding: unicode
-  # PostgreSQL 15
   database: reservation-db
   username: postgres
-  password: admin
-  host: localhost
+  password: sxlQ6gzxReWJQVxgsEIQ
+  host: reservation-db.chvjg7sdhn39.eu-north-1.rds.amazonaws.com
   port: 5432
+
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -66,11 +66,10 @@ test:
   <<: *default
   adapter: postgresql
   encoding: unicode
-  # PostgreSQL 15
   database: reservation-db
   username: postgres
-  password: admin
-  host: localhost
+  password: sxlQ6gzxReWJQVxgsEIQ
+  host: reservation-db.chvjg7sdhn39.eu-north-1.rds.amazonaws.com
   port: 5432
 
 # As with config/credentials.yml, you never want to store sensitive information,
