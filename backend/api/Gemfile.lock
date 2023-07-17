@@ -54,6 +54,8 @@ GEM
     activerecord (7.0.6)
       activemodel (= 7.0.6)
       activesupport (= 7.0.6)
+    activerecord-import (1.4.1)
+      activerecord (>= 4.2)
     activestorage (7.0.6)
       actionpack (= 7.0.6)
       activejob (= 7.0.6)
@@ -161,6 +163,7 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
+  activerecord-import
   bootsnap
   debug
   pg (~> 1.1)
@@ -169,7 +172,7 @@ DEPENDENCIES
   tzinfo-data
 
 RUBY VERSION
-   ruby 3.2.2p53
+   ruby 3.1.3p185
 
 BUNDLED WITH
    2.4.10
